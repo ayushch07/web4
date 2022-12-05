@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+nav
+{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.2);
+    background:white ;
+    position: sticky;
+    top: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 80px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    text-decoration: none;
+   
+}
+
+.container{
+    
+     max-width: 1200px;
+ }
+.logo{
+    font-size: 40px;
+    margin-left: 170px;
+}
+.na{
+    font-size: 30px;
+    font-weight: 600;
+    color: orangered;
+    padding-right: 80px;
+    
+}
+.bar-icon{
+    font-size: 25px;
+    
+}
+.bar-icon:hover{
+    background-color: orangered;
+}
+.na:hover{
+cursor: pointer;
+color: green;
+}
+.i ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2',cursive;
+}
+.i ul li{
+    list-style:none ;
+    font-size: 1.3rem;
+    display: table-cell;  
+   padding-left: 25px;
+}
+.i ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+.i ul li a:hover{
+    color: orangered;
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 478px;
+
+}
+/* using pseudo selector */
+#home::before{
+    content: "";
+    background:url(https://images.unsplash.com/photo-1579113800032-c38bd7635818?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGdyb2Nlcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+    
+    position: absolute;
+    height: 76%;
+    width: 100%;
+    z-index: -1;
+    
+    left: 0px;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 26px;
+    font-family: 'Bree Serif', serif;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+
+}
+.explore{
+    
+    background: White;
+    color: black;
+    border-radius: 8px;
+    border-color: gray;
+}
+.explore:hover{
+    background-color: orangered;
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+}
+.h-prim{
+    padding-top: 60px;
+    font-size: 1.8rem;
+    
+    font-family: 'Bree Serif', serif;
+    
+}
+#services{
+margin: 34px;
+display: flex;
+}
+.box{
+    border: 2px ;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 9px;
+    background:#f2f2f2;
+}
+.box img{
+    height:200px ;
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+ 
+.box p{
+    font-family: 'Bree Serif', serif;
+}
+.box:hover{
+    border-color: gray;
+    transition: 0.2s ease-in-out;
+    box-shadow: 7px 7px 7px 7px rgba(1, 1, 1, 0.4);
+}
+
+.cuto{
+    color: orangered;
+    font-size: 35px;
+}
+.box explore
+{
+    background-color:orange ;
+}
+.explore1{
+    
+    background: gray;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 140px;
+}
+.explore1:hover{
+    background-color: rgb(251, 206, 177);
+    color: white;
+    color:black;
+}
+.main{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    border-radius: 600px ;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.discount{
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+    
+
+}
+.main_content h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.main_img{
+    border-radius: 50px;
+}
+.la1{
+    color: orangered;
+    margin-right: 100px;
+    padding-left: 50px;
+    display: flex;
+
+}
+.la1 a{
+    margin-left: 10px;
+
+}
+.hg{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+
+}
+.bar-icon1{
+    font-size: 40px;
+    cursor: pointer;
+}
